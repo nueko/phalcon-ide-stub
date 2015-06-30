@@ -1,0 +1,13 @@
+{
+    "name": "sumeko/phalcon-ide-stub",
+    "description": "Phalcon PHP Framework IDE Stub",
+    "license": "Apache 2.0",
+    "authors": [
+        {
+            "name": "sumeko",
+            "email": "sumeko@live.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
