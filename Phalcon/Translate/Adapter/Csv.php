@@ -2,6 +2,12 @@
 
 namespace Phalcon\Translate\Adapter {
 
+	/**
+	 * Phalcon\Translate\Adapter\Csv
+	 *
+	 * Allows to define translation lists using CSV file
+	 */
+	
 	class Csv extends \Phalcon\Translate\Adapter implements \Phalcon\Translate\AdapterInterface, \ArrayAccess {
 
 		protected $_translate;

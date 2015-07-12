@@ -30,5 +30,8 @@ namespace Phalcon\Mvc {
 
 		public function getContent();
 
+
+		public function partial($partialPath, $params=null);
+
 	}
 }

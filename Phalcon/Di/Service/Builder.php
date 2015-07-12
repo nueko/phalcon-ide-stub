@@ -22,7 +22,7 @@ namespace Phalcon\Di\Service {
 
 
 		/**
-		 * Resolves an array of parameters	 	 
+		 * Resolves an array of parameters
 		 */
 		private function _buildParameters(\Phalcon\DiInterface $dependencyInjector, $arguments){ }
 

@@ -15,7 +15,7 @@ namespace Phalcon\Validation\Validator {
 	 *    'message' => ':field must be unique'
 	 *)));
 	 *</code>
-	 * 
+	 *
 	 * Different attribute from the field
 	 *<code>
 	 *$validator->add('username', new UniquenessValidator(array(

@@ -101,5 +101,21 @@ namespace Phalcon\Debug {
 		 */
 		public function variables(){ }
 
+
+		/**
+		 * Returns an JSON string of information about a single variable.
+		 *
+		 * <code>
+		 *    $foo = ["key" => "value"];
+		 *    echo (new \Phalcon\Debug\Dump())->toJson($foo);
+		 *    $foo = new stdClass();
+		 *    $foo->bar = 'buz';
+		 *    echo (new \Phalcon\Debug\Dump())->toJson($foo);
+		 * </code>
+		 *
+		 * @param mixed variable
+		 */
+		public function toJson($variable){ }
+
 	}
 }
